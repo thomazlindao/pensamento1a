@@ -1,0 +1,58 @@
+header{
+    background: #BBBBBB;
+    padding: 20px;
+}
+
+.caixa {
+  position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:C78C19;
+}
+
+.equipamentos {
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px 0;
+}
+
+.equipamentos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: #fcfcfc;
+    margin: 0 1.5%;
+    padding: 30Xpx 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+
+}
+.equipamentos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
